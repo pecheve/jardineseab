@@ -50,7 +50,7 @@ Nuevos css
 }
 .header{
 	/* background-image: url('../images/trabajos/trabajo_2.jpeg');*/
-	background:  linear-gradient(179.89deg, #FFFFFF 10%, rgba(255, 255, 255, 0) 150%), url('../images/trabajos/trabajo_2.jpeg');
+	background:  linear-gradient(179.89deg, #FFFFFF 40%, rgba(255, 255, 255, 0) 150%), url('../images/trabajos/trabajo_2.jpeg');
 	background-repeat: no-repeat;
 	background-size: cover; 
 	/* border-radius: 0px 0px 20px 20px; */
@@ -60,8 +60,7 @@ header p{
 	-webkit-text-stroke: 1px #519968;
 }
 header h1{
-	-webkit-text-fill-color: #519968;	
-	-webkit-text-stroke: 0.7px #f6a60e;
+	-webkit-text-fill-color: #4C4B4B;	
 }
 
 .text-meta{
