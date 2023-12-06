@@ -49,24 +49,26 @@ Nuevos css
 	padding:7px 0px;
 }
 .header{
-	/* background-image: url('../images/trabajos/trabajo_2.jpeg');*/
-	background:  linear-gradient(179.89deg, #FFFFFF 40%, rgba(255, 255, 255, 0) 150%), url('../images/trabajos/trabajo_2.jpeg');
+	/* background-image: url('../images/imagenes/fondo2.png');*/
+	background:  linear-gradient(179.89deg, #FFFFFF 40%, rgba(255, 255, 255, 0) 150%), url('../images/imagenes/fondo2.png');
 	background-repeat: no-repeat;
 	background-size: cover; 
 	/* border-radius: 0px 0px 20px 20px; */
 }
 header p{
-	-webkit-text-fill-color: #f6a60e;
-	-webkit-text-stroke: 1px #519968;
+	-webkit-text-fill-color: #4C4B4B;
+	/*-webkit-text-stroke: 1px #519968;*/
 }
 header h1{
-	-webkit-text-fill-color: #4C4B4B;	
+	-webkit-text-fill-color: #4C4B4B;	/*Eli: cambié color*/
+	font-size: 36px;/* no me toma este tamaño*/
+	/*-webkit-text-stroke: 0.7px #f6a60e;*/
 }
 
 .text-meta{
 
 	font-weight: 500;
-	font-size: 48px;
+	font-size: 36px;
 	line-height: 70px;
 	text-align: center;
 	
@@ -89,6 +91,7 @@ header h1{
 	color: #519968!important;
 }
 
+
 .text-vida-2{
 	font-weight: 400;
 	font-size: 40px;
@@ -102,7 +105,7 @@ header h1{
 .text-eab{
 
 font-weight: 400;
-font-size: 21px;
+font-size: 20px;
 line-height: 40px;
 /* or 125% */
 
@@ -920,6 +923,9 @@ input[type='checkbox'] {
 	padding-bottom: 3rem;
 	background-color: #fff;
 	text-align: center;
+}
+.header .container {
+	display: flex; /*Aplique flex, Eli*/
 }
 
 .header .text-container {
