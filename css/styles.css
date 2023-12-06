@@ -49,7 +49,7 @@ Nuevos css
 	padding:7px 0px;
 }
 .header{
-	/* background-image: url('../images/imagenes/fondo2.png');*/
+	/* background-image: url('../imagesimagenes/fondo2.png');*/
 	background:  linear-gradient(179.89deg, #FFFFFF 40%, rgba(255, 255, 255, 0) 150%), url('../images/imagenes/fondo2.png');
 	background-repeat: no-repeat;
 	background-size: cover; 
@@ -65,19 +65,18 @@ header h1{
 	/*-webkit-text-stroke: 0.7px #f6a60e;*/
 }
 
-.text-meta{
+.text-meta {
 
 	font-weight: 500;
 	font-size: 36px;
-	line-height: 70px;
+	line-height: 60px;
 	text-align: center;
-	
 	color: #3E3838;
 }
 
 .text-meta-2{
 	font-weight: 400;
-	font-size: 40px;
+	font-size: 60px;
 	line-height: 50px;
 	text-align: center;
 	
@@ -103,16 +102,23 @@ header h1{
 
 
 .text-eab{
-
 font-weight: 400;
 font-size: 20px;
 line-height: 40px;
 /* or 125% */
-
 text-align: center;
-
 color: #4C4B4B;
 }
+
+.text-eab-2{
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 22px;
+	/* or 125% */
+	text-align: center;
+	color: #4C4B4B;
+	}
+	
 
 .servicios{
 	color: #9D9D9D;
@@ -1304,9 +1310,9 @@ input[type='checkbox'] {
 /*     10. Screenshots     */
 /***************************/
 .slider {
-	padding-top: 8rem;
+	padding-top: 2rem;
 	padding-bottom: 8rem;
-	background-color: #e8eff6;
+	background-color: #ffffff;
 }
 
 .slider .slider-container {
@@ -1703,7 +1709,7 @@ a:hover.back-to-top {
 	
 	/* Header */
 	.header .text-container {
-		margin-bottom: 6rem;
+		margin-bottom: 0;/*Bajé de 6 rem a 0/Eli*/
 	}
 
 	.header .btn-solid-lg {
@@ -1836,6 +1842,12 @@ a:hover.back-to-top {
 		box-shadow: 0 0.375rem 0.375rem 0 rgba(0, 0, 0, 0.1);
 	}
 
+	/* collapse */
+
+	.cardVerMas{
+		display: flex;
+	}
+
 	.navbar-custom .dropdown-item {
 		padding-top: 0.25rem;
 		padding-bottom: 0.25rem;
@@ -1855,11 +1867,11 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header {
-		padding-top: 12rem;
+		padding-top: 10rem; 
 	}
 
 	.header h1 {
-		font-size: 4rem;
+		font-size: 2,5rem;
 		line-height: 4.875rem;
 		letter-spacing: -1px;
 	}
