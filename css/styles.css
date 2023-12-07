@@ -1042,9 +1042,9 @@ input[type='checkbox'] {
 /*     06. Description 1     */
 /*****************************/
 .basic-1 {
-	padding-top: 3rem;
-	padding-bottom: 8rem;
-	background-color: #fff;
+	padding-top: 1rem;
+	padding-bottom: 5rem;
+	background-color: #F4FFF8;
 }
 
 .basic-1 .image-container {
