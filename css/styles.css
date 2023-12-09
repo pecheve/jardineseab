@@ -40,28 +40,33 @@ Colors:
 Nuevos css
 
 ******************************************/
-.fa-angle-right{
-	color:#519968;
+.fa-angle-right {
+	color: #519968;
 	margin: 5px;
 }
 
-.servicios .media{
-	padding:7px 0px;
+.servicios .media {
+	padding: 7px 0px;
 }
-.header{
+
+.header {
 	/* background-image: url('../imagesimagenes/fondo2.png');*/
-	background:  linear-gradient(179.89deg, #FFFFFF 40%, rgba(255, 255, 255, 0) 150%), url('../images/imagenes/fondo2.png');
+	background: linear-gradient(179.89deg, #FFFFFF 40%, rgba(255, 255, 255, 0) 150%), url('../images/imagenes/fondo2.png');
 	background-repeat: no-repeat;
-	background-size: cover; 
+	background-size: cover;
 	/* border-radius: 0px 0px 20px 20px; */
 }
-header p{
+
+header p {
 	-webkit-text-fill-color: #4C4B4B;
 	/*-webkit-text-stroke: 1px #519968;*/
 }
-header h1{
-	-webkit-text-fill-color: #4C4B4B;	/*Eli: cambié color*/
-	font-size: 36px;/* no me toma este tamaño*/
+
+header h1 {
+	-webkit-text-fill-color: #4C4B4B;
+	/*Eli: cambié color*/
+	font-size: 36px;
+	/* no me toma este tamaño*/
 	/*-webkit-text-stroke: 0.7px #f6a60e;*/
 }
 
@@ -74,135 +79,163 @@ header h1{
 	color: #3E3838;
 }
 
-.text-meta-2{
+.text-meta-2 {
 	font-weight: 400;
 	font-size: 60px;
 	line-height: 50px;
 	text-align: center;
-	
+
 	color: #3E3838;
 }
-.text-vida{
+
+.text-vida {
 	font-weight: 500;
 	font-size: 48px;
 	line-height: 70px;
 	text-align: center;
-	color: #519968!important;
+	color: #519968 !important;
 }
 
 
-.text-vida-2{
+.text-vida-2 {
 	font-weight: 400;
 	font-size: 40px;
 	line-height: 50px;
 	text-align: center;
-	color: #519968!important;
+	color: #519968 !important;
 }
 
 
 
-.text-eab{
-font-weight: 400;
-font-size: 20px;
-line-height: 40px;
-/* or 125% */
-text-align: center;
-color: #4C4B4B;
+.text-eab {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 40px;
+	/* or 125% */
+	text-align: center;
+	color: #4C4B4B;
 }
 
-.text-eab-2{
+.text-eab-2 {
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 30px;
 	/* or 125% */
 	text-align: center;
 	color: #4C4B4B;
-	}
-	
-
-.servicios{
-	color: #9D9D9D;
-	margin:25px 0px;
-	font-size:35px;
 }
 
-.img-ilustracion{
+
+.servicios {
+	color: #9D9D9D;
+	margin: 25px 0px;
+	font-size: 35px;
+}
+
+.img-ilustracion {
 	margin: 50px 0px 0px 0px;
 }
 
-.card{
+.card {
 	/* height: 200px; */
-	margin:10px;
+	margin: 10px;
 	border-radius: 30px;
 }
 
-.img-card{
+.img-card {
 	/* padding:20px; */
 
 }
-.card-titulo{	
+
+.card-titulo {
 	font-weight: 500;
-	font-size:48px;
+	font-size: 48px;
 	line-height: 50px;
 	text-align: center;
 	color: #519968;
 }
-.card-texto{
+
+.card-texto {
 	font-weight: 400;
 	font-size: 21px;
 	line-height: 30px;
 	text-align: center;
-	
+
 	color: #4C4B4B;
-	
+
 }
 
-.img-card{
-	margin:10px 0px;
-	padding:10px;
+.img-card {
+	margin: 10px 0px;
+	padding: 10px;
 }
 
 @media (max-width: 768px) {
-	.header .img-fluid{
+
+	.mobile {
+		display: none;
+	}
+
+	.header .img-fluid {
 		max-width: 90%;
 	}
 
-	.text-meta{
+	.text-meta {
 
 		font-weight: 500;
 		font-size: 40px;
 		line-height: 70px;
 		text-align: center;
-		
+
 		color: #3E3838;
 	}
 
-	.text-vida{
+	.text-vida {
 		font-weight: 500;
 		font-size: 40px;
 		line-height: 70px;
 		text-align: center;
-		color: #519968!important;
+		color: #519968 !important;
 	}
 
 }
-@media (min-width: 992px) {
 
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+.text-title-garden {
+	color: #4C4B4B;
+	text-align: center;
+	font-family: Poppins;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
 }
-@media (min-width: 1200px){
 
-} 
+.bold{
+	color: #519968!important;
+}
+
+
+
+
+
+
+
 /******************************/
 /*     01. General Styles     */
 /******************************/
 body,
 html {
-    width: 100%;
+	width: 100%;
 	height: 100%;
 }
 
-body, p {
-	color: #777; 
+body,
+p {
+	color: #777;
 	font: 400 1rem/1.75rem "Open Sans", sans-serif;
 }
 
@@ -306,7 +339,7 @@ a.red {
 	font: 700 0.875rem/0 "Open Sans", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
-	margin-bottom:20px;
+	margin-bottom: 20px;
 }
 
 .btn-solid-lg:hover {
@@ -409,16 +442,17 @@ a.red {
 }
 
 /* IE10+ hack to solve lower label text position compared to the rest of the browsers */
-@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
+@media screen and (-ms-high-contrast: active),
+screen and (-ms-high-contrast: none) {
 	.label-control {
 		top: 0.9375rem;
 	}
 }
 
-.form-control-input:focus + .label-control,
-.form-control-input.notEmpty + .label-control,
-.form-control-textarea:focus + .label-control,
-.form-control-textarea.notEmpty + .label-control {
+.form-control-input:focus+.label-control,
+.form-control-input.notEmpty+.label-control,
+.form-control-textarea:focus+.label-control,
+.form-control-textarea.notEmpty+.label-control {
 	top: 0.125rem;
 	opacity: 1;
 	font-size: 0.75rem;
@@ -427,7 +461,8 @@ a.red {
 
 .form-control-input,
 .form-control-select {
-	display: block; /* needed for proper display of the label in Firefox, IE, Edge */
+	display: block;
+	/* needed for proper display of the label in Firefox, IE, Edge */
 	width: 100%;
 	padding-top: 1.0625rem;
 	padding-bottom: 0.0625rem;
@@ -438,7 +473,8 @@ a.red {
 	color: #777;
 	font: 400 0.875rem/1.875rem "Open Sans", sans-serif;
 	transition: all 0.2s;
-	-webkit-appearance: none; /* removes inner shadow on form inputs on ios safari */
+	-webkit-appearance: none;
+	/* removes inner shadow on form inputs on ios safari */
 }
 
 .form-control-select {
@@ -448,7 +484,8 @@ a.red {
 }
 
 /* IE10+ hack to solve lower label text position compared to the rest of the browsers */
-@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
+@media screen and (-ms-high-contrast: active),
+screen and (-ms-high-contrast: none) {
 	.form-control-input {
 		padding-top: 1.25rem;
 		padding-bottom: 0.75rem;
@@ -464,26 +501,29 @@ a.red {
 }
 
 select {
-    /* you should keep these first rules in place to maintain cross-browser behavior */
-    -webkit-appearance: none;
+	/* you should keep these first rules in place to maintain cross-browser behavior */
+	-webkit-appearance: none;
 	-moz-appearance: none;
 	-ms-appearance: none;
-    -o-appearance: none;
-    appearance: none;
-    background-image: url('../images/down-arrow.png');
-    background-position: 96% 50%;
-    background-repeat: no-repeat;
-    outline: none;
+	-o-appearance: none;
+	appearance: none;
+	background-image: url('../images/down-arrow.png');
+	background-position: 96% 50%;
+	background-repeat: no-repeat;
+	outline: none;
 }
 
 select::-ms-expand {
-    display: none; /* removes the ugly default down arrow on select form field in IE11 */
+	display: none;
+	/* removes the ugly default down arrow on select form field in IE11 */
 }
 
 .form-control-textarea {
-	display: block; /* used to eliminate a bottom gap difference between Chrome and IE/FF */
+	display: block;
+	/* used to eliminate a bottom gap difference between Chrome and IE/FF */
 	width: 100%;
-	height: 8rem; /* used instead of html rows to normalize height between Chrome and IE/FF */
+	height: 8rem;
+	/* used instead of html rows to normalize height between Chrome and IE/FF */
 	padding-top: 1.25rem;
 	padding-left: 1.3125rem;
 	border: 1px solid #c4d8dc;
@@ -498,7 +538,8 @@ select::-ms-expand {
 .form-control-select:focus,
 .form-control-textarea:focus {
 	border: 1px solid #a1a1a1;
-	outline: none; /* Removes blue border on focus */
+	outline: none;
+	/* Removes blue border on focus */
 }
 
 .form-control-input:hover,
@@ -513,7 +554,8 @@ input[type='checkbox'] {
 }
 
 /* IE10+ hack to raise checkbox field position compared to the rest of the browsers */
-@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
+@media screen and (-ms-high-contrast: active),
+screen and (-ms-high-contrast: none) {
 	input[type='checkbox'] {
 		vertical-align: -9%;
 	}
@@ -558,6 +600,7 @@ input[type='checkbox'] {
 .help-block.with-errors ul {
 	margin-bottom: 0;
 }
+
 /* end of form success and error message formatting */
 
 /* Form Success And Error Message Animation - Animate.css */
@@ -567,21 +610,31 @@ input[type='checkbox'] {
 		-ms-transform: scale3d(1, 1, 1);
 		transform: scale3d(1, 1, 1);
 	}
-	10%, 20% {
+
+	10%,
+	20% {
 		-webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
 		-ms-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
 		transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
 	}
-	30%, 50%, 70%, 90% {
+
+	30%,
+	50%,
+	70%,
+	90% {
 		-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
 		-ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
 		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
 	}
-	40%, 60%, 80% {
+
+	40%,
+	60%,
+	80% {
 		-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
 		-ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
 		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
 	}
+
 	to {
 		-webkit-transform: scale3d(1, 1, 1);
 		-ms-transform: scale3d(1, 1, 1);
@@ -595,21 +648,31 @@ input[type='checkbox'] {
 		-ms-transform: scale3d(1, 1, 1);
 		transform: scale3d(1, 1, 1);
 	}
-	10%, 20% {
+
+	10%,
+	20% {
 		-webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
 		-ms-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
 		transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
 	}
-	30%, 50%, 70%, 90% {
+
+	30%,
+	50%,
+	70%,
+	90% {
 		-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
 		-ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
 		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
 	}
-	40%, 60%, 80% {
+
+	40%,
+	60%,
+	80% {
 		-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
 		-ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
 		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
 	}
+
 	to {
 		-webkit-transform: scale3d(1, 1, 1);
 		-ms-transform: scale3d(1, 1, 1);
@@ -628,6 +691,7 @@ input[type='checkbox'] {
 	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both;
 }
+
 /* end of form success and error message animation - Animate.css */
 
 /* Fade-move Animation For Details Lightbox - Magnific Popup */
@@ -643,17 +707,17 @@ input[type='checkbox'] {
 /* animate in */
 .my-mfp-slide-bottom.mfp-ready .zoom-anim-dialog {
 	opacity: 1;
-	-webkit-transform: translateY(0) perspective(37.5rem) rotateX(0); 
-	-ms-transform: translateY(0) perspective(37.5rem) rotateX(0); 
-	transform: translateY(0) perspective(37.5rem) rotateX(0); 
+	-webkit-transform: translateY(0) perspective(37.5rem) rotateX(0);
+	-ms-transform: translateY(0) perspective(37.5rem) rotateX(0);
+	transform: translateY(0) perspective(37.5rem) rotateX(0);
 }
 
 /* animate out */
 .my-mfp-slide-bottom.mfp-removing .zoom-anim-dialog {
 	opacity: 0;
-	-webkit-transform: translateY(-0.625rem) perspective(37.5rem) rotateX(10deg); 
-	-ms-transform: translateY(-0.625rem) perspective(37.5rem) rotateX(10deg); 
-	transform: translateY(-0.625rem) perspective(37.5rem) rotateX(10deg); 
+	-webkit-transform: translateY(-0.625rem) perspective(37.5rem) rotateX(10deg);
+	-ms-transform: translateY(-0.625rem) perspective(37.5rem) rotateX(10deg);
+	transform: translateY(-0.625rem) perspective(37.5rem) rotateX(10deg);
 }
 
 /* dark overlay, start state */
@@ -666,10 +730,12 @@ input[type='checkbox'] {
 .my-mfp-slide-bottom.mfp-ready.mfp-bg {
 	opacity: 0.8;
 }
+
 /* animate out */
 .my-mfp-slide-bottom.mfp-removing.mfp-bg {
 	opacity: 0;
 }
+
 /* end of fade-move animation for details lightbox - magnific popup */
 
 /* Fade Animation For Image Lightbox - Magnific Popup */
@@ -677,6 +743,7 @@ input[type='checkbox'] {
 	from {
 		opacity: 0;
 	}
+
 	to {
 		opacity: 1;
 	}
@@ -686,6 +753,7 @@ input[type='checkbox'] {
 	from {
 		opacity: 0;
 	}
+
 	to {
 		opacity: 1;
 	}
@@ -700,6 +768,7 @@ input[type='checkbox'] {
 	from {
 		opacity: 1;
 	}
+
 	to {
 		opacity: 0;
 	}
@@ -709,6 +778,7 @@ input[type='checkbox'] {
 	from {
 		opacity: 1;
 	}
+
 	to {
 		opacity: 0;
 	}
@@ -718,6 +788,7 @@ input[type='checkbox'] {
 	-webkit-animation: fadeOut 0.8s;
 	animation: fadeOut 0.8s;
 }
+
 /* end of fade animation for details lightbox - magnific popup */
 
 
@@ -736,15 +807,18 @@ input[type='checkbox'] {
 
 .spinner {
 	position: absolute;
-	top: 50%; /* centers the loading animation vertically one the screen */
-	left: 50%; /* centers the loading animation horizontally one the screen */
+	top: 50%;
+	/* centers the loading animation vertically one the screen */
+	left: 50%;
+	/* centers the loading animation horizontally one the screen */
 	width: 3.75rem;
 	height: 1.25rem;
-	margin: -0.625rem 0 0 -1.875rem; /* is width and height divided by two */ 
+	margin: -0.625rem 0 0 -1.875rem;
+	/* is width and height divided by two */
 	text-align: center;
 }
 
-.spinner > div {
+.spinner>div {
 	display: inline-block;
 	width: 1rem;
 	height: 1rem;
@@ -765,16 +839,29 @@ input[type='checkbox'] {
 }
 
 @-webkit-keyframes sk-bouncedelay {
-	0%, 80%, 100% { -webkit-transform: scale(0); }
-	40% { -webkit-transform: scale(1.0); }
+
+	0%,
+	80%,
+	100% {
+		-webkit-transform: scale(0);
+	}
+
+	40% {
+		-webkit-transform: scale(1.0);
+	}
 }
 
 @keyframes sk-bouncedelay {
-	0%, 80%, 100% { 
+
+	0%,
+	80%,
+	100% {
 		-webkit-transform: scale(0);
 		-ms-transform: scale(0);
 		transform: scale(0);
-	} 40% { 
+	}
+
+	40% {
 		-webkit-transform: scale(1.0);
 		-ms-transform: scale(1.0);
 		transform: scale(1.0);
@@ -793,7 +880,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-    /*width: 6.6875rem;*/
+	/*width: 6.6875rem;*/
 	height: 4.25rem;
 }
 
@@ -817,32 +904,35 @@ input[type='checkbox'] {
 
 .navbar-custom .nav-item .nav-link:hover,
 .navbar-custom .nav-item .nav-link.active {
-	color:#519968;
+	color: #519968;
 	/*color: #519968;*/
 }
 
 /* Dropdown Menu */
-.navbar-custom .dropdown:hover > .dropdown-menu {
-	display: block; /* this makes the dropdown menu stay open while hovering it */
+.navbar-custom .dropdown:hover>.dropdown-menu {
+	display: block;
+	/* this makes the dropdown menu stay open while hovering it */
 	min-width: auto;
-	animation: fadeDropdown 0.2s; /* required for the fade animation */
+	animation: fadeDropdown 0.2s;
+	/* required for the fade animation */
 }
 
 @keyframes fadeDropdown {
-    0% {
-        opacity: 0;
-    }
+	0% {
+		opacity: 0;
+	}
 
-    100% {
-        opacity: 1;
-    }
+	100% {
+		opacity: 1;
+	}
 }
 
 .navbar-custom .dropdown-toggle {
 	cursor: default;
 }
 
-.navbar-custom .dropdown-toggle:focus { /* removes dropdown outline on focus */
+.navbar-custom .dropdown-toggle:focus {
+	/* removes dropdown outline on focus */
 	outline: 0;
 }
 
@@ -878,6 +968,7 @@ input[type='checkbox'] {
 	background-color: #c4d8dc;
 	opacity: 0.2;
 }
+
 /* end of dropdown menu */
 
 .navbar-custom .nav-item .btn-outline-sm {
@@ -901,19 +992,19 @@ input[type='checkbox'] {
 	font-size: 2rem;
 }
 
-.navbar-custom button[aria-expanded='false'] .navbar-toggler-awesome.fas.fa-times{
+.navbar-custom button[aria-expanded='false'] .navbar-toggler-awesome.fas.fa-times {
 	display: none;
 }
 
-.navbar-custom button[aria-expanded='false'] .navbar-toggler-awesome.fas.fa-bars{
+.navbar-custom button[aria-expanded='false'] .navbar-toggler-awesome.fas.fa-bars {
 	display: inline-block;
 }
 
-.navbar-custom button[aria-expanded='true'] .navbar-toggler-awesome.fas.fa-bars{
+.navbar-custom button[aria-expanded='true'] .navbar-toggler-awesome.fas.fa-bars {
 	display: none;
 }
 
-.navbar-custom button[aria-expanded='true'] .navbar-toggler-awesome.fas.fa-times{
+.navbar-custom button[aria-expanded='true'] .navbar-toggler-awesome.fas.fa-times {
 	display: inline-block;
 	margin-right: 0.125rem;
 }
@@ -930,8 +1021,10 @@ input[type='checkbox'] {
 	background-color: #fff;
 	text-align: center;
 }
+
 .header .container {
-	display: flex; /*Aplique flex, Eli*/
+	display: flex;
+	/*Aplique flex, Eli*/
 }
 
 .header .text-container {
@@ -1134,6 +1227,7 @@ input[type='checkbox'] {
 .lightbox-basic .btn-solid-reg.mfp-close:hover {
 	color: #519968;
 }
+
 /* end of action Button */
 
 /* Back Button */
@@ -1152,6 +1246,7 @@ input[type='checkbox'] {
 .lightbox-basic .btn-outline-reg.mfp-close.as-button:hover {
 	color: #fff;
 }
+
 /* end of back button */
 
 /* Close X Button */
@@ -1163,6 +1258,7 @@ input[type='checkbox'] {
 	height: 2.75rem;
 	color: #555;
 }
+
 /* end of close x button */
 
 
@@ -1258,7 +1354,7 @@ input[type='checkbox'] {
 	margin-bottom: 1.375rem;
 }
 
-.basic-2 .li-space-lg.first li:last-of-type  {
+.basic-2 .li-space-lg.first li:last-of-type {
 	margin-bottom: 2rem;
 }
 
@@ -1512,7 +1608,7 @@ input[type='checkbox'] {
 
 
 
-.bg-nuestros-clientes{
+.bg-nuestros-clientes {
 	background-color: #FFFFFF;
 }
 
@@ -1548,9 +1644,9 @@ input[type='checkbox'] {
 .footer .footer-col {
 	display: inline-block;
 	width: 14.5rem;
-    margin-right: 1rem;
+	margin-right: 1rem;
 	margin-bottom: 1.5rem;
-    vertical-align: top;
+	vertical-align: top;
 }
 
 .footer h5 {
@@ -1580,7 +1676,7 @@ input[type='checkbox'] {
 }
 
 .footer .fa-stack .fa-stack-1x {
-    color: #fff;
+	color: #fff;
 	transition: all 0.2s ease;
 }
 
@@ -1594,7 +1690,7 @@ input[type='checkbox'] {
 }
 
 .footer .fa-stack:hover .fa-stack-2x {
-    color: #555;
+	color: #555;
 }
 
 
@@ -1635,7 +1731,7 @@ a.back-to-top {
 }
 
 a:hover.back-to-top {
-	background-color: #555; 
+	background-color: #555;
 }
 
 
@@ -1721,19 +1817,21 @@ a:hover.back-to-top {
 
 /*****************************/
 /*     18. Media Queries     */
-/*****************************/	
+/*****************************/
 /* Min-width 768px */
 @media (min-width: 768px) {
-	
+
 	/* Header */
 	.header .text-container {
-		margin-bottom: 0;/*Bajé de 6 rem a 0/Eli*/
+		margin-bottom: 0;
+		/*Bajé de 6 rem a 0/Eli*/
 	}
 
 	.header .btn-solid-lg {
 		margin-bottom: 0;
 		margin-left: 0;
 	}
+
 	/* end of header */
 
 
@@ -1746,6 +1844,7 @@ a:hover.back-to-top {
 		max-width: 100%;
 		vertical-align: top;
 	}
+
 	/* end of small features */
 
 
@@ -1754,6 +1853,7 @@ a:hover.back-to-top {
 		width: auto;
 		margin-right: 0.625rem;
 	}
+
 	/* end of description 2 */
 
 
@@ -1761,10 +1861,11 @@ a:hover.back-to-top {
 	.slider .swiper-button-prev {
 		left: -0.625rem;
 	}
-	
+
 	.slider .swiper-button-next {
 		right: -0.625rem;
 	}
+
 	/* end of screenshots */
 
 
@@ -1773,6 +1874,7 @@ a:hover.back-to-top {
 		margin-bottom: 0;
 		margin-left: 0;
 	}
+
 	/* end of download */
 
 
@@ -1789,14 +1891,16 @@ a:hover.back-to-top {
 	.ex-basic-2 .form-container {
 		margin-top: 0;
 	}
+
 	/* end of extra pages */
 }
+
 /* end of min-width 768px */
 
 
 /* Min-width 992px */
 @media (min-width: 992px) {
-	
+
 	/* General Styles */
 	.p-heading {
 		width: 80%;
@@ -1808,21 +1912,22 @@ a:hover.back-to-top {
 		font-size: 3rem;
 		line-height: 3.875rem;
 	}
-	
+
 	h2 {
 		font-size: 2.5rem;
 		line-height: 3.25rem;
 	}
+
 	/* end of general styles */
 
 
 	/* Navigation */
 	.navbar-custom {
 		padding: 2.125rem 1.5rem 2.125rem 2rem;
-        background: transparent;
+		background: transparent;
 		box-shadow: none;
 	}
-	
+
 	.navbar-custom .navbar-nav {
 		margin-top: 0;
 		margin-bottom: 0;
@@ -1831,9 +1936,9 @@ a:hover.back-to-top {
 	.navbar-custom .nav-item .nav-link {
 		padding: 0.25rem 0.75rem;
 	}
-	
+
 	.navbar-custom.top-nav-collapse {
-        padding: 0.5rem 1.5rem 0.5rem 2rem;
+		padding: 0.5rem 1.5rem 0.5rem 2rem;
 		background-color: #fff;
 		box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
 	}
@@ -1862,7 +1967,7 @@ a:hover.back-to-top {
 
 	/* collapse */
 
-	.cardVerMas{
+	.cardVerMas {
 		display: flex;
 	}
 
@@ -1880,16 +1985,17 @@ a:hover.back-to-top {
 		margin-bottom: 0;
 		margin-left: 0.625rem;
 	}
+
 	/* end of navigation */
 
 
 	/* Header */
 	.header {
-		padding-top: 10rem; 
+		padding-top: 10rem;
 	}
 
 	.header h1 {
-		font-size: 2,5rem;
+		font-size: 2, 5rem;
 		line-height: 4.875rem;
 		letter-spacing: -1px;
 	}
@@ -1938,6 +2044,7 @@ a:hover.back-to-top {
 		width: 1rem;
 		height: 1rem;
 	}
+
 	/* end of header */
 
 
@@ -1945,6 +2052,7 @@ a:hover.back-to-top {
 	.basic-1 .image-container {
 		margin-bottom: 0;
 	}
+
 	/* end of description 1 */
 
 
@@ -1957,6 +2065,7 @@ a:hover.back-to-top {
 		margin-bottom: 0;
 		text-align: left;
 	}
+
 	/* end of description 1 details lightbox */
 
 
@@ -1964,6 +2073,7 @@ a:hover.back-to-top {
 	.tabs .tabs-container {
 		margin-bottom: 0;
 	}
+
 	/* end of description 2 */
 
 
@@ -1980,10 +2090,10 @@ a:hover.back-to-top {
 		margin-bottom: 1.875rem;
 	}
 
-	.basic-2 .li-space-lg.first li:last-of-type  {
+	.basic-2 .li-space-lg.first li:last-of-type {
 		margin-bottom: 1.875rem;
 	}
-	
+
 	.basic-2 .fa-stack {
 		margin-right: 1rem;
 		font-size: 2.25rem;
@@ -2007,17 +2117,19 @@ a:hover.back-to-top {
 		max-width: 100%;
 		margin-bottom: 0;
 	}
+
 	/* end of features */
 
-	
+
 	/* Screenshots */
 	.slider .swiper-button-prev {
 		left: 0;
 	}
-	
+
 	.slider .swiper-button-next {
 		right: 0;
 	}
+
 	/* end of screenshots */
 
 
@@ -2038,6 +2150,7 @@ a:hover.back-to-top {
 	.cards-2 .card:last-of-type {
 		margin-right: 0;
 	}
+
 	/* end of testimonials */
 
 
@@ -2049,11 +2162,12 @@ a:hover.back-to-top {
 	.counter #counter .fas {
 		font-size: 3rem;
 	}
-	
+
 	.counter #counter .counter-value {
 		font-size: 4rem;
-		line-height: 4.875rem;	
+		line-height: 4.875rem;
 	}
+
 	/* end of statistics */
 
 
@@ -2108,6 +2222,7 @@ a:hover.back-to-top {
 		width: 1rem;
 		height: 1rem;
 	}
+
 	/* end of download */
 
 
@@ -2120,6 +2235,7 @@ a:hover.back-to-top {
 	.footer .footer-col.fourth {
 		width: 11.5rem;
 	}
+
 	/* end of footer */
 
 
@@ -2133,14 +2249,16 @@ a:hover.back-to-top {
 	.ex-basic-2 {
 		padding-bottom: 5rem;
 	}
+
 	/* end of extra pages */
 }
+
 /* end of min-width 992px */
 
 
 /* Min-width 1200px */
 @media (min-width: 1200px) {
-	
+
 	/* Header */
 	.header .image-container {
 		/* width: 58.0625rem;
@@ -2182,6 +2300,7 @@ a:hover.back-to-top {
 		width: 1.25rem;
 		height: 1.25rem;
 	}
+
 	/* end of header */
 
 
@@ -2189,10 +2308,11 @@ a:hover.back-to-top {
 	.cards-1 .card:first-of-type {
 		margin-left: 0;
 	}
-	
+
 	.cards-1 .card:last-of-type {
 		margin-right: 0;
 	}
+
 	/* end of small features */
 
 
@@ -2207,6 +2327,7 @@ a:hover.back-to-top {
 		margin-top: 5rem;
 		margin-left: 2.5rem;
 	}
+
 	/* end of description 1 */
 
 
@@ -2214,6 +2335,7 @@ a:hover.back-to-top {
 	.lightbox-basic .image-container {
 		margin-right: 1.5rem;
 	}
+
 	/* end of description 1 details lightbox */
 
 
@@ -2228,6 +2350,7 @@ a:hover.back-to-top {
 		margin-top: 6rem;
 		margin-right: 2.5rem;
 	}
+
 	/* end of description 2 */
 
 
@@ -2250,6 +2373,7 @@ a:hover.back-to-top {
 		width: 18.75rem;
 		height: 39.8125rem;
 	}
+
 	/* end of features */
 
 
@@ -2263,12 +2387,13 @@ a:hover.back-to-top {
 		width: 1.375rem;
 		background-size: 1.375rem 2.125rem;
 	}
-	
+
 	.slider .swiper-button-next {
 		right: -2.25rem;
 		width: 1.375rem;
 		background-size: 1.375rem 2.125rem;
 	}
+
 	/* end of screenshots */
 
 
@@ -2283,6 +2408,7 @@ a:hover.back-to-top {
 		margin-right: 1.25rem;
 		margin-left: 1.25rem;
 	}
+
 	/* end of testimonials */
 
 
@@ -2291,6 +2417,7 @@ a:hover.back-to-top {
 		margin-right: 2.375rem;
 		margin-left: 2.375rem;
 	}
+
 	/* end of statistics */
 
 
@@ -2336,6 +2463,7 @@ a:hover.back-to-top {
 		width: 1.5rem;
 		height: 1.5rem;
 	}
+
 	/* end of download */
 
 
@@ -2345,7 +2473,7 @@ a:hover.back-to-top {
 		width: 14rem;
 		margin-right: 2.5rem;
 	}
-	
+
 	.footer .footer-col.second {
 		width: 14rem;
 		margin-right: 2.25rem;
@@ -2366,6 +2494,7 @@ a:hover.back-to-top {
 		width: 12rem;
 		margin-right: 0;
 	}
+
 	/* end of footer */
 
 
@@ -2383,7 +2512,8 @@ a:hover.back-to-top {
 	.ex-basic-2 .image-container-small {
 		margin-left: 1.75rem;
 	}
+
 	/* end of extra pages */
 }
-/* end of min-width 1200px */
 
+/* end of min-width 1200px */
