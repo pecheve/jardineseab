@@ -63,8 +63,6 @@ header p {
 }
 
 header h1 {
-	-webkit-text-fill-color: #4C4B4B;
-	/*Eli: cambié color*/
 	font-size: 36px;
 	/* no me toma este tamaño*/
 	/*-webkit-text-stroke: 0.7px #f6a60e;*/
@@ -109,8 +107,8 @@ header h1 {
 
 .text-eab {
 	font-weight: 400;
-	font-size: 20px;
-	line-height: 40px;
+	font-size: 17px;
+	line-height: 30px;
 	/* or 125% */
 	text-align: center;
 	color: #4C4B4B;
@@ -170,15 +168,18 @@ header h1 {
 	padding: 10px;
 }
 
+.header .img-fluid-jardineria {
+	max-width: 50%!important;
+	height: auto;
+}
+
 @media (max-width: 768px) {
 
 	.mobile {
 		display: none;
 	}
 
-	.header .img-fluid {
-		max-width: 90%;
-	}
+	
 
 	.text-meta {
 
@@ -207,11 +208,10 @@ header h1 {
 .text-title-garden {
 	color: #4C4B4B;
 	text-align: center;
-	font-family: Poppins;
 	font-size: 24px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: normal;
+	line-height: 40px;
 }
 
 .bold{
@@ -1017,7 +1017,6 @@ screen and (-ms-high-contrast: none) {
 	position: relative;
 	overflow: hidden;
 	padding-top: 8rem;
-	padding-bottom: 3rem;
 	background-color: #fff;
 	text-align: center;
 }
@@ -1028,7 +1027,7 @@ screen and (-ms-high-contrast: none) {
 }
 
 .header .text-container {
-	margin-bottom: 3rem;
+	margin-bottom: 2rem;
 }
 
 .header h1 {
@@ -1823,7 +1822,7 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header .text-container {
-		margin-bottom: 0;
+		margin-bottom: 2rem;
 		/*Bajé de 6 rem a 0/Eli*/
 	}
 
@@ -1996,7 +1995,6 @@ a:hover.back-to-top {
 
 	.header h1 {
 		font-size: 2, 5rem;
-		line-height: 4.875rem;
 		letter-spacing: -1px;
 	}
 
