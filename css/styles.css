@@ -40,6 +40,7 @@ Colors:
 Nuevos css
 
 ******************************************/
+
 .fa-angle-right {
 	color: #519968;
 	margin: 5px;
@@ -71,7 +72,7 @@ header h1 {
 .text-meta {
 
 	font-weight: 500;
-	font-size: 36px;
+	font-size: 30px;
 	line-height: 60px;
 	text-align: center;
 	color: #3E3838;
@@ -120,7 +121,7 @@ header h1 {
 	line-height: 30px;
 	/* or 125% */
 	text-align: center;
-	color: #4C4B4B;
+	color: 4C4B4B;
 }
 
 
@@ -137,7 +138,8 @@ header h1 {
 .card {
 	/* height: 200px; */
 	margin: 10px;
-	border-radius: 30px;
+	border-radius: 10px;
+	border: 0px!important;
 }
 
 .img-card {
@@ -184,7 +186,7 @@ header h1 {
 	.text-meta {
 
 		font-weight: 500;
-		font-size: 40px;
+		font-size: 28px;
 		line-height: 70px;
 		text-align: center;
 
@@ -217,6 +219,31 @@ header h1 {
 .bold{
 	color: #519968!important;
 }
+
+
+
+/******************************/
+/*     styles Eli     */
+/******************************/
+
+
+.card-img-top{
+	border-radius: 10px 10px 0px 0px;
+}
+
+.card{
+	box-shadow: 8px 15px 43px -10px rgba(69,69,69,0.75);
+-webkit-box-shadow: 8px 15px 43px -10px rgba(69,69,69,0.75);
+-moz-box-shadow: 8px 15px 43px -10px rgba(69,69,69,0.75);
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -1345,7 +1372,7 @@ screen and (-ms-high-contrast: none) {
 }
 
 .basic-2 h2 {
-	margin-bottom: 0.875rem;
+	margin-bottom: 2rem;
 	text-align: center;
 }
 
