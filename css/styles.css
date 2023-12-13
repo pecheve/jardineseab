@@ -1339,7 +1339,7 @@ screen and (-ms-high-contrast: none) {
 /*     09. Features     */
 /************************/
 .basic-2 {
-	padding-top: 1rem;
+	padding-top: 2rem;
 	padding-bottom: 1rem;
 	background-color: #fff;
 }
@@ -1823,7 +1823,6 @@ a:hover.back-to-top {
 	/* Header */
 	.header .text-container {
 		margin-bottom: 2rem;
-		/*Bajé de 6 rem a 0/Eli*/
 	}
 
 	.header .btn-solid-lg {
@@ -2078,7 +2077,7 @@ a:hover.back-to-top {
 
 	/* Features */
 	.basic-2 {
-		padding-bottom: 8rem;
+		padding-bottom: 3rem;
 	}
 
 	.basic-2 .list-unstyled {
@@ -2368,10 +2367,10 @@ a:hover.back-to-top {
 		margin-left: auto;
 	}
 
-	.basic-2 img {
+	/* .basic-2 img {
 		width: 18.75rem;
 		height: 39.8125rem;
-	}
+	} */
 
 	/* end of features */
 
