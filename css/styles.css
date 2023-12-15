@@ -201,6 +201,23 @@ header h1 {
 		color: #519968 !important;
 	}
 
+	.f-icon{
+		flex-direction: column;
+	}
+
+	.icono-footer{
+		padding-top: 30px;
+	}
+
+	.f-img{
+		width: 400px;	
+		}
+
+	img .img-fluid{
+		justify-content: center;
+	}
+	
+	
 }
 
 @media (min-width: 992px) {}
@@ -219,7 +236,10 @@ header h1 {
 .bold{
 	color: #519968!important;
 }
-
+.f-icon{
+	display: flex;
+	justify-content: space-around;
+}
 
 
 /******************************/
