@@ -237,7 +237,13 @@ header h1 {
 -moz-box-shadow: 8px 15px 43px -10px rgba(69,69,69,0.75);
 }
 
+.icono-mail{
+	margin-bottom: 7px;
+}
 
+.iconos{
+	display: flex;
+}
 
 
 
@@ -1893,6 +1899,10 @@ a:hover.back-to-top {
 	}
 
 	/* end of screenshots */
+
+.icono-footer{
+	
+}
 
 
 	/* Download */
