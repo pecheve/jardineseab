@@ -139,7 +139,7 @@ header h1 {
 	/* height: 200px; */
 	margin: 10px;
 	border-radius: 10px;
-	border: 0px!important;
+	border: 0px !important;
 }
 
 .img-card {
@@ -171,7 +171,7 @@ header h1 {
 }
 
 .header .img-fluid-jardineria {
-	max-width: 50%!important;
+	max-width: 50% !important;
 	height: auto;
 }
 
@@ -181,7 +181,7 @@ header h1 {
 		display: none;
 	}
 
-	
+
 
 	.text-meta {
 
@@ -201,25 +201,25 @@ header h1 {
 		color: #519968 !important;
 	}
 
-	.f-icon{
+	.f-icon {
 		flex-direction: column;
 	}
 
-	.icono-footer{
+	.icono-footer {
 		padding-top: 30px;
 	}
 
-	.f-img{
-		width: 400px;	
-		}
+	.f-img {
+		width: 400px;
+	}
 
-	.img-fluid{
+	.img-fluid {
 		justify-content: center;
 		width: auto;
 		height: auto;
 	}
-	
-	
+
+
 }
 
 @media (min-width: 992px) {}
@@ -235,10 +235,11 @@ header h1 {
 	line-height: 40px;
 }
 
-.bold{
-	color: #519968!important;
+.bold {
+	color: #519968 !important;
 }
-.f-icon{
+
+.f-icon {
 	display: flex;
 	justify-content: space-around;
 }
@@ -249,27 +250,59 @@ header h1 {
 /******************************/
 
 
-.card-img-top{
+.card-img-top {
 	border-radius: 10px 10px 0px 0px;
 }
 
-.card{
-	box-shadow: 8px 15px 43px -10px rgba(69,69,69,0.75);
--webkit-box-shadow: 8px 15px 43px -10px rgba(69,69,69,0.75);
--moz-box-shadow: 8px 15px 43px -10px rgba(69,69,69,0.75);
+.card {
+	box-shadow: 8px 15px 43px -10px rgba(69, 69, 69, 0.75);
+	-webkit-box-shadow: 8px 15px 43px -10px rgba(69, 69, 69, 0.75);
+	-moz-box-shadow: 8px 15px 43px -10px rgba(69, 69, 69, 0.75);
 }
 
-.icono-mail{
+.icono-mail {
 	margin-bottom: 7px;
 }
 
-.iconos{
+.iconos {
 	display: flex;
 }
 
+.btnes-contacto{
+	display: flex;
+	justify-content: center;
+}
 
+/* .btnes{
+margin: 40px 20px 40px 20px;
+text-align: center;
+} */
 
+.fab{
+	font-size: 25px;
+	padding-right: 10px;
+}
+.btnes {
+    text-align: center;
+}
 
+.contact-link {
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+	margin: 50px 20px;
+
+}
+
+.contact-link i {
+    vertical-align: middle;
+}
+
+.contact-link .text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px; /* Ajusta este valor según sea necesario para la separación entre el ícono y el texto */
+}
 
 
 
@@ -1629,7 +1662,7 @@ screen and (-ms-high-contrast: none) {
 	position: relative;
 	overflow: hidden;
 	padding-top: 7rem;
-	padding-bottom: 2rem;
+	padding-bottom: 5rem;
 	background-color: #F8F8F8;
 	text-align: center;
 }
@@ -1898,7 +1931,7 @@ a:hover.back-to-top {
 		vertical-align: top;
 	}
 
-	
+
 	/* end of small features */
 
 
@@ -1922,9 +1955,7 @@ a:hover.back-to-top {
 
 	/* end of screenshots */
 
-.icono-footer{
-	
-}
+	.icono-footer {}
 
 
 	/* Download */
