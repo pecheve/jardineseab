@@ -304,6 +304,11 @@ text-align: center;
     margin-left: 5px; /* Ajusta este valor según sea necesario para la separación entre el ícono y el texto */
 }
 
+.btncard{
+	background-color: #519968;
+}
+
+
 
 
 
